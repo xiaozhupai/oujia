@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--自定义dialog style，如果要占满全屏的话注意不要用 parent="Theme.AppCompat.Dialog"-->
+    <style name="customer_dialog" parent="Theme.AppCompat.Dialog">
+        <!--去掉标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--去掉边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否有背景模糊层-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--dimAmount在0.0f和1.0f之间，0.0f完全不暗，即背景是可见的 ，1.0f时候，背景全部变黑暗-->
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
 </resources>

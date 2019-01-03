@@ -27,7 +27,7 @@ public class DrawableUtil {
      * @return 图片名字中包含有imgName的所有图片 imageResourceId
      * <p>
      * 使用示例： 如有5张图片: image_0 ,image_1 ,image_3 , image_4 ,image_5 ;
-     * 调用方法 getImageResourId("image_")  ,则会得到上面的张图片的imageResourceId
+     * 调用方法 getImageResourId("image_")  ,则会得到上面的5张图片的imageResourceId
      */
     public List<Integer> getImageResourId(String imgName) {
         List<Integer> imgList = new ArrayList<>();

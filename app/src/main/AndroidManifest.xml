@@ -23,7 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".statusBar.StatusActivity" />
-        <activity android:name=".statusBar.AnimActivity"></activity>
+        <activity android:name=".statusBar.AnimActivity" />
+        <activity android:name=".activity.CoordinatorLayoutActivity" />
+        <activity android:name=".activity.DialogActivity" />
+        <activity android:name=".activity.DispatchTouchEventActivity"></activity>
     </application>
 
 </manifest>
