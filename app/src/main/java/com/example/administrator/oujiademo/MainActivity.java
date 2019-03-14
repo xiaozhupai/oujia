@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.example.administrator.oujiademo.activity.CoordinatorLayoutActivity;
 import com.example.administrator.oujiademo.activity.DialogActivity;
 import com.example.administrator.oujiademo.activity.DispatchTouchEventActivity;
+import com.example.administrator.oujiademo.activity.WifiActivity;
 import com.example.administrator.oujiademo.statusBar.StatusActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -36,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                startActivity(new Intent(this, StatusActivity.class));
 //                startActivity(new Intent(this, CoordinatorLayoutActivity.class));
 //                startActivity(new Intent(this, DialogActivity.class));
-                skip(DispatchTouchEventActivity.class);
+//                skip(DispatchTouchEventActivity.class);
+                skip(WifiActivity.class);
                 break;
         }
     }
