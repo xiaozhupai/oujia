@@ -11,13 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/blink_00005" />
+        android:src="@drawable/blink_00005"
+        android:visibility="gone" />
 
     <com.example.administrator.oujiademo.widget.ScrollLinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone">
 
         <TextView
             android:layout_width="match_parent"
@@ -62,5 +64,18 @@
             android:text="item1" />
 
     </com.example.administrator.oujiademo.widget.ScrollLinearLayout>
+
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="OFF" />
 
 </LinearLayout>

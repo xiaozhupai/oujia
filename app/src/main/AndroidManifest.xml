@@ -7,9 +7,17 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
-
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -18,6 +26,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- <meta-data -->
+        <!-- android:name="FMXOS_PACKAGE_NAME" -->
+        <!-- android:value="com.shion.cc" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="FMXOS_APP_KEY" -->
+        <!-- android:value="712a9fa7d1964ad09a579f39dc49d518" /> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="FMXOS_SN" -->
+        <!-- android:value="1144_00_10044" /> -->
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +52,9 @@
         <activity android:name=".activity.DialogActivity" />
         <activity android:name=".activity.DispatchTouchEventActivity" />
         <activity android:name=".activity.WifiActivity" />
+        <activity android:name=".activity.GreenDaoActivity" />
+        <activity android:name=".activity.HimalayaActivity" />
+        <activity android:name=".activity.TulingActivity"></activity>
     </application>
 
 </manifest>

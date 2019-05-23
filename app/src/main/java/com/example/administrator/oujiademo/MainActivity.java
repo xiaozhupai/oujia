@@ -14,6 +14,9 @@ import android.widget.Toast;
 import com.example.administrator.oujiademo.activity.CoordinatorLayoutActivity;
 import com.example.administrator.oujiademo.activity.DialogActivity;
 import com.example.administrator.oujiademo.activity.DispatchTouchEventActivity;
+import com.example.administrator.oujiademo.activity.GreenDaoActivity;
+import com.example.administrator.oujiademo.activity.HimalayaActivity;
+import com.example.administrator.oujiademo.activity.TulingActivity;
 import com.example.administrator.oujiademo.activity.WifiActivity;
 import com.example.administrator.oujiademo.statusBar.StatusActivity;
 
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
         button.setOnClickListener(this);
+        skip(TulingActivity.class);
     }
 
     @Override
@@ -38,7 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                startActivity(new Intent(this, CoordinatorLayoutActivity.class));
 //                startActivity(new Intent(this, DialogActivity.class));
 //                skip(DispatchTouchEventActivity.class);
-                skip(WifiActivity.class);
+//                skip(WifiActivity.class);
+                skip(HimalayaActivity.class);
                 break;
         }
     }
